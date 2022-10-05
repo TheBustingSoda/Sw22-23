@@ -104,7 +104,10 @@ namespace Game
             c.tick();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 
 }

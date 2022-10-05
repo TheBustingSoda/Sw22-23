@@ -90,5 +90,14 @@
   <ItemGroup>
     <None Include="Resources\froyo_circle.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\THe goon.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tim.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G.jfif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
