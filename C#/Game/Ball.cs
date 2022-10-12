@@ -23,18 +23,15 @@ namespace Game
             Debug.Print(m_picture.Name + " collided with " + other.Name);
             // We collided, so let's figure out which way we should "bounce"
             // Clear
-<<<<<<< Updated upstream
             if (m_xdir != 0)
                 m_xdir *= -1; 
             else
-=======
             if (!m_parent.isClear(m_picture,m_picture.Location.X + m_xdir, m_picture.Location.Y))
                 m_xdir *= -1;
             if (!m_parent.isClear(m_picture, m_picture.Location.X, m_picture.Location.Y + m_ydir))
->>>>>>> Stashed changes
                 m_ydir *= -1;
             
-            return false; // bounce
+            return false; //bounce
         }
         public override void tick()
         {
